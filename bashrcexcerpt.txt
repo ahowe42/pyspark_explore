@@ -1,0 +1,7 @@
+export PYTHONPATH=/home/ahowe42/anaconda3/bin
+export SPARK_HOME=/home/ahowe42/spark-3.1.1-bin-hadoop2.7
+#export PYSPARK_DRIVER_PYTHON="jupyter"
+#export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+export PYSPARK_PYTHON=ipython3
+#export PYTHONPATH=$PYTHONPATH:$SPARK_HOME/python
+export PATH=$PATH:$SPARK_HOME/bin:$PYTHONPATH:$JAVA_HOME/jre/bin
